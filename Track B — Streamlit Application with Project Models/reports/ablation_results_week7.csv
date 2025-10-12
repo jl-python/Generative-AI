@@ -1,0 +1,7 @@
+query,latency_ms,num_chunks,num_entities,model
+what is this paper about and what does it improve relating to chess?,13783,365,704,gpt2
+"What is Maia-2, and what novel contribution does it make to chess modeling?",14427,365,704,gpt2
+What inputs does Maia-2 require compared to previous versions?,12976,365,704,gpt2
+What were the accuracy improvements in move prediction and perplexity achieved by Maia-2?,12549,365,704,gpt2
+What percentage of positions did Maia-2 treat as “blunders” during evaluation?,12708,365,704,gpt2
+"When describing Maia-2’s architecture and training, what role did dataset filtering play?",13642,365,704,gpt2
