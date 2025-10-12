@@ -1,0 +1,27 @@
+{
+  "project": "Week7_TrackB",
+  "description": "Graph-RAG Multi-Hop QA app using Streamlit + FastAPI",
+  "frontend_entry": "app/app.py",
+  "backend_entry": "backend/main.py",
+  "pipeline": "backend/pipeline.py",
+  "reports_dir": "reports/",
+  "run_commands": {
+    "backend": "cd backend && uvicorn main:app --reload --port 8000",
+    "frontend": "cd app && streamlit run app.py"
+  },
+  "python_version": "3.12",
+  "frameworks": [
+    "FastAPI",
+    "Streamlit",
+    "LangChain",
+    "NetworkX",
+    "ChromaDB"
+  ],
+  "eval_queries": 5,
+  "metrics_logged": [
+    "latency_ms",
+    "accuracy",
+    "hop_level"
+  ],
+  "last_updated": "2025-10-12"
+}
